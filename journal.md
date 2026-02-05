@@ -8,7 +8,7 @@ In my model, I will use a central shaft (the "pole") that can spin freely to mim
 
 
 <img width="524" height="600" alt="image" src="https://github.com/user-attachments/assets/8bd3ccf7-1d3e-456e-96ee-7bccad1f3eeb" />
-<img width="200" height="300" alt="image" src="https://github.com/user-attachments/assets/62bf197b-8ebd-4bff-a0d2-d013ca44e191" />
+<img width="525" height="500" alt="image" src="https://github.com/user-attachments/assets/62bf197b-8ebd-4bff-a0d2-d013ca44e191" />
 
 
 
