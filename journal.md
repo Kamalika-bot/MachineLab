@@ -80,6 +80,7 @@ The motor exercise has the same circuit as the rough prototype below.
 https://github.com/user-attachments/assets/44bbea18-aeca-4474-a822-67814adb28fa
 
 The circuit of the prototype is the same as the one above. The shaft attached to is connected to the motor using the hub. It's speed is controlled by the potentiometer knob and the direction is reversed everytime the push button is pressed. The motor was enough for the protoype but the actual model will have a _pulley system_ to control the system tdo offer a more stable experience. As for the back arm method ball, I just plan to use an _actuator_ connected to the back of the model to control the course of the ball. The actuator would speed up the ball when required and bring it back to the top once the game is over. 
+
 ---
 
 
