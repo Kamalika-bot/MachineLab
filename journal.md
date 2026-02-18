@@ -82,7 +82,32 @@ https://github.com/user-attachments/assets/44bbea18-aeca-4474-a822-67814adb28fa
 The circuit of the prototype is the same as the one above. The shaft attached to is connected to the motor using the hub. It's speed is controlled by the potentiometer knob and the direction is reversed everytime the push button is pressed. The motor was enough for the protoype but the actual model will have a _pulley system_ to control the system tdo offer a more stable experience. As for the back arm method ball, I just plan to use an _actuator_ connected to the back of the model to control the course of the ball. The actuator would speed up the ball when required and bring it back to the top once the game is over. 
 
 ---
+# Homework Group Prototype-1 
+due Tuesday, February 17th
+
+## Group Members - David, Kamalika, Yumi
+## Game - Cyberpunk 2077
+
+- Cyberpunk 2077 is a 2020 action role-playing game set in the fictional metropolis of Night City in California, within the dystopian Cyberpunk Universe. It is known for its cyberpunk aesthetic.
+  
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/51b44492-7967-4147-bcc3-1cd8b2154253" width="48%" />
+  <img src="https://github.com/user-attachments/assets/3566c049-72e6-46df-a255-7f0d65fa004e" width="48%" />
+</p>
+
+This is a rough sketch of the prototype. Some key features are described below: 
+- A **night city background** which consists of buildings of varying lengths with neon led lights that flicker and are synchronised with the music and scene hapenning simultaneously. Some of them will have billboards as well.
+- Train and Car Tracks that go through the air and lead into the behind of the buildings. We will use a conveyer belt mechanism for moving the train and car tracks.
+- There will be a main character who is quite large compared to the rest of the project. He will be hanging by a thread and moves up and down on it. Another key feature is this character's Cyberpsychosis, due to which his arm is detached and he hangs with limp limbs
+- Finally, there will be a large crowd of people moving through the pedestrian path below. This will bemade using the conveyer belt. This movement helps keep the project look dynamic and engaging.
+
+<img src="https://github.com/user-attachments/assets/9b03b08c-ef51-4508-979c-1f8521a458ba" align="left" width="200" alt="image" />
+
+### Prototype for class
+This mechanism is the one we chose to build for class. It is used to represent the arm detaching and revealing another arm below. The strign was meant to stimulate the pulling up of the detached arm. It is attached to the metallic arm on one side and the L298 Motor on the other side. When the motor starts turning, the arm is pulled back up to join the rest of the arm.
+
+<br clear="left" />
 
 
 
-
+--- 
