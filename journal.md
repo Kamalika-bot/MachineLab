@@ -107,6 +107,16 @@ This is a rough sketch of the prototype. Some key features are described below:
 This mechanism is the one we chose to build for class. It is used to represent the arm detaching and revealing another arm below. The strign was meant to stimulate the pulling up of the detached arm. It is attached to the metallic arm on one side and the L298 Motor on the other side. When the motor starts turning, the arm is pulled back up to join the rest of the arm.
 
 <br clear="left" />
+---
+
+#Brainstorming for Project
+
+[Electronic Bird](https://pin.it/7AJqbkida) 
+
+<img width="540" height="960" alt="image" src="https://github.com/user-attachments/assets/96aacd4d-4162-4569-9333-7981a6c0330f" />
+
+[Ponyo Music Box](https://pin.it/6FYcWkq1m)
+
 
 
 
