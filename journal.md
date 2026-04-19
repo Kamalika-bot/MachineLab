@@ -128,12 +128,60 @@ This mechanism is the one we chose to build for class. It is used to represent t
 
 - The Ponyo music box on the otherhand, is a bit more complex as it involves multiple motors and more equipment.
 - **Elements of Interactivity:** The birds will echo the movments fo the hand or the island in the ponyo music box will echo
-- To echo the hand, we will need thermosensors so wil wait until the project is first built and then add it at the very end.
+- To echo the hand, we will need sensor but will wait until the project is first built and then add it at the very end.
 
 ---
 # Ponyo Diorama
 - I have settled on doing the Ponyo project. This exhibit shows a small scene of the movie.
 <img width="1342" height="1465" alt="image" src="https://github.com/user-attachments/assets/7de4bde8-6a2d-4a0e-b6ba-949509442cde" />
+
+## Main Features:
+- Rotating Island
+- A Ponyo who also moves along with the island
+- Fishes in the front which have an arc
+
+### The mototrs and all the electronic part will be under the island contained in a box. 
+
+## Core Mechanisms:
+- A Stepper Motor with a shaft attached to the island to help it rotate.
+- A Smaller motor for the arc of fishes
+- Led Lights for added dynamics
+- A Speaker to play music
+- A sensor to make the island echo hand movements
+
+## Materials Required:
+- A Stepper motor 
+- 12V Battery
+- Arduino Board
+- Switch
+- Cardboard for the base
+- A metal or pencil shaft for the island
+- Balso wood to support the island and the house on it
+- XPS Foam for the base of the island.
+- Paperclips/Popsicle Sticks for the arms to attach to the fishes.
+
+---
+
+# 10 April Meeting
+
+- Discussed all the above mentioned features.
+- Changed the motor from Stepper Motor to DC 12V Motor
+- Talked about using a thermosensor to echo the hand movements. This would be explored in detail after the main features are built.
+- Next Step is to get the materials and start building the island mechanism.
+
+---
+
+# 14 April Meeting
+
+- Got Balso Wood, DC Motors, Carboard to build the island from Green Branch Trading.
+- Ordered the XPS Foam but hasn't arrived in time.
+- Decided to work on the base and figure out all the mechanisms by then.
+
+---
+
+
+
+
 
 
 
