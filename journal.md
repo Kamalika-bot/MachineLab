@@ -117,6 +117,25 @@ This mechanism is the one we chose to build for class. It is used to represent t
 
 [Ponyo Music Box](https://pin.it/6FYcWkq1m)
 
+---
+# 3rd April Meeting
+
+- This meeting was with the Professor to get started with a sense of direction.
+- A few explored directions were: Ponyo Musicbox, Electric Bird
+- The mechanisms involved in the bird would just be some gears.
+  
+<img width="540" height="960" alt="image" src="https://github.com/user-attachments/assets/96aacd4d-4162-4569-9333-7981a6c0330f" />
+
+- The Ponyo music box on the otherhand, is a bit more complex as it involves multiple motors and more equipment.
+- **Elements of Interactivity:** The birds will echo the movments fo the hand or the island in the ponyo music box will echo
+- To echo the hand, we will need thermosensors so wil wait until the project is first built and then add it at the very end.
+
+---
+# Ponyo Diorama
+- I have settled on doing the Ponyo project. This exhibit shows a small scene of the movie.
+<img width="1342" height="1465" alt="image" src="https://github.com/user-attachments/assets/7de4bde8-6a2d-4a0e-b6ba-949509442cde" />
+
+
 
 
 
