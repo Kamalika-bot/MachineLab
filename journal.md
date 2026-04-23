@@ -177,6 +177,16 @@ This mechanism is the one we chose to build for class. It is used to represent t
 - Ordered the XPS Foam but hasn't arrived in time.
 - Decided to work on the base and figure out all the mechanisms by then.
 
+
+
+https://github.com/user-attachments/assets/e2be7a86-011b-490f-bc72-5486568988c2
+
+
+
+https://github.com/user-attachments/assets/ce3c9875-4f11-4545-b6ba-e16c83429d24
+
+
+
 ---
 
 
