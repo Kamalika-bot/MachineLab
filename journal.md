@@ -195,8 +195,78 @@ https://github.com/user-attachments/assets/ce3c9875-4f11-4545-b6ba-e16c83429d24
 
 https://github.com/user-attachments/assets/32dcddc9-855f-4ef0-bd8b-f19512a3fd43
 
+<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/52d36439-7eed-48aa-bd37-cc3d52794d94" />
+
+<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/cb7d20ba-31b3-46b7-befb-fd616b7776bf" />
+
+```
+/*
+ * Dual Motor Control with Potentiometer
+ * Hardware: L298N H-Bridge + Arduino + Potentiometer
+ */
+
+// Motor 1 Pins (Side A - Usually the Big Motor)
+const int enA = 11; // Speed control
+const int in1 = 9;  // Direction 1
+const int in2 = 10; // Direction 2
+
+// Motor 2 Pins (Side B - Usually the Small Motor)
+const int enB = 6;  // Speed control
+const int in3 = 7;  // Direction 1
+const int in4 = 8;  // Direction 2
+
+// Potentiometer Pin
+const int potPin = A0;
+
+void setup() {
+  // Set all motor control pins to outputs
+  pinMode(enA, OUTPUT);
+  pinMode(in1, OUTPUT);
+  pinMode(in2, OUTPUT);
+  pinMode(enB, OUTPUT);
+  pinMode(in3, OUTPUT);
+  pinMode(in4, OUTPUT);
+
+  // Set Motor 1 Direction (Forward)
+  digitalWrite(in1, HIGH);
+  digitalWrite(in2, LOW);
+
+  // Set Motor 2 Direction (Forward)
+  digitalWrite(in3, HIGH);
+  digitalWrite(in4, LOW);
+  
+  Serial.begin(9600); // For debugging if needed
+}
+
+void loop() {
+  // Read the potentiometer (Value is 0 to 1023)
+  int potValue = analogRead(potPin);
+
+  // Map the value to PWM speed (0 to 255)
+  // Note: We start at 80 instead of 0 to help the small motor start moving
+  int motorSpeed = map(potValue, 0, 1023, 0, 255);
+
+  // Small logic tweak: If speed is very low, just turn it off
+  // Otherwise, ensure it is at least 80 so the small motor doesn't stall
+  if (motorSpeed < 15) {
+    motorSpeed = 0;
+  } else if (motorSpeed < 80) {
+    motorSpeed = 80; 
+  }
+
+  // Send the speed signal to the ENA and ENB pins
+  analogWrite(enA, motorSpeed);
+  analogWrite(enB, motorSpeed * 0.6);
+
+  // Optional: Print to Serial Monitor to see what's happening
+  Serial.print("Pot: "); Serial.print(potValue);
+  Serial.print(" | Speed: "); Serial.println(motorSpeed);
+}
+```
+
 https://github.com/user-attachments/assets/98443482-2c72-43cd-b715-0eda7a2144aa
 
+<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/ea6e90c7-d5d6-48c0-9552-a6d2de7083d6" />
 
 ---
 
